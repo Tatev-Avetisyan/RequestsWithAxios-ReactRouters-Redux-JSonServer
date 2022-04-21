@@ -1,0 +1,132 @@
+.container {
+    display:flex;
+    flex-wrap: wrap;
+}
+.startPage{
+    width: 100%;
+    height: 60vh;
+    background-color: aquamarine;
+    color: blanchedalmond;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 15%;
+    
+}
+
+.textInfo{
+    font-weight: 500;
+    font-size: large;
+    font-style: italic;
+
+}
+.userInfo{
+    width:100%;
+    min-height: 5vh;
+    background-color: aquamarine;
+    font-weight: bolder;
+    
+}
+.cardItem{
+    width:30%;
+    min-height: 5vh;
+    border: solid 1px black;
+    margin: 1%;
+    text-align: center;
+}
+
+.detailItem{
+    width:50%;
+    min-height: 50vh;
+    border: solid 1px black;
+    margin-left: 25%;
+    text-align: center;
+    
+}
+.text{
+    /* margin-right: 5%; */
+    font-weight: bolder;
+    font-size: 120%;
+}
+.btnAdd{
+    width:30%;
+    height: 5vh;
+    margin-left: 34%;
+    font-size: 100%;
+}
+.addComponent{
+    margin-left: 38%;
+    /* display: flex;
+    flex-direction: column; */
+    width: 20%;
+    min-height: 10vh;
+    background-color: aquamarine;
+    font-size: 150%;
+}
+.addComponent label{
+    margin-left: 30%;
+
+}
+.addUserBtn{
+    width:70%;
+    height: 5vh;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size:medium;
+}
+
+
+.inputs{
+    width: 42%;
+    height: 5vh;
+    margin: 2%;
+}
+.button{
+    width: 30%;
+    height: 4vh;
+    margin: 2%;
+}
+p,span{
+    margin-left: 2%;
+}
+
+.paginationUl{
+    display: flex;
+    list-style-type: none;
+}
+.paginationLi{
+    width: 5%;
+    height: 3vh;
+    border: solid 2px rgb(141, 138, 138);
+    margin: 0.2%;
+    text-align: center;
+    font-size: large;
+    background-color: aquamarine; 
+}
+.activePage{
+    width: 5%;
+    height: 3vh;
+    border: solid 2px rgb(141, 138, 138);
+    margin: 0.2%;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(14, 95, 95);
+}
+.paginationLi:hover{
+    background-color: rgb(14, 95, 95);
+}
+.paginationDiv{
+    display: flex;
+    width: 100%;
+}
+
+.paginationButton{
+    width: 10%;
+    height: 4vh;
+    margin-left: 4%;
+    font-size: medium;
+}
+
+.showPaginationPage{
+    font-size: large;
+    font-family: fantasy;
+}
